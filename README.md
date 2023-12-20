@@ -1,5 +1,4 @@
 # AltimeterPi
-Raspberry Pi and SenseHat Altimeter Project
 #### Video Demo:  <URL HERE>
 #### Description:
 This project implements a data logging and visualization system using a Raspberry Pi with a Sense HAT sensor board.

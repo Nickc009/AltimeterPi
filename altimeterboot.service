@@ -1,0 +1,14 @@
+[Unit]
+Description= Altimeter: A Flask app that stores and serves temp humidity and altitude data.
+
+[Service]
+ExecStart=/usr/bin/python3 /home/admin/testthree12_5/app.py
+WorkingDirectory=/home/admin/testthree12_5
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=altimeterboot
+User=admin
+
+[Install]
+WantedBy=multi-user.target
