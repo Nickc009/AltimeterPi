@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Dashboard</title>
+    <style>
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sensor Data Dashboard</h1>
+    <div>
+        <img id="live-graph" src="/static/live_graph.png" alt="Live Graph">
+    </div>
+
+    <script>
+        function reloadPage() {
+            location.reload();
+        }
+        
+        setInterval(reloadPage, 5000);
+    </script>
+</body>
+</html>
